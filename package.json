@@ -1,7 +1,7 @@
 {
   "name": "react-uniswap",
   "private": false,
-  "version": "1.0.24",
+  "version": "1.0.25",
   "type": "module",
   "description": "A clean Uniswap swap widget package for easy integration",
   "main": "./dist/index.umd.js",
