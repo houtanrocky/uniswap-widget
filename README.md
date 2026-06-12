@@ -1,6 +1,9 @@
 # Uniswap Widget Package
 
-A React component package for easily integrating Uniswap swap functionality into your dApp.
+<img width="581" height="546" alt="image" src="https://github.com/user-attachments/assets/b98e27cd-3a08-4a1e-a018-f12ef1cd9bba" />
+
+
+A React component package for easily integrating Uniswap swap functionality into your dApp with maximum dev flexibility, and no limitation, no warnings on any token, and no fee.
 
 ## Installation
 
