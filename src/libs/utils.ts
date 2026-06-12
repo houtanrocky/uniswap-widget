@@ -1,5 +1,5 @@
 import { Token, TradeType } from '@uniswap/sdk-core'
-import { Trade } from '@uniswap/v3-sdk'
+import type { Trade } from '@uniswap/v3-sdk'
 import { BigNumber, ethers } from 'ethers'
 
 const MAX_DECIMALS = 4

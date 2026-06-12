@@ -10,7 +10,7 @@ export default defineConfig({
       insertTypesEntry: true,
       rollupTypes: true,
       include: ['src/**/*.ts', 'src/**/*.tsx'],
-      exclude: ['src/**/*.test.ts', 'src/**/*.test.tsx'],
+      exclude: ['src/**/*.test.ts', 'src/**/*.test.tsx', 'src/App.tsx', 'src/main.tsx'],
     }),
   ],
 
@@ -64,24 +64,17 @@ export default defineConfig({
       formats: ['es', 'umd']
     },
     rollupOptions: {
+      // regex so subpath imports ('@reown/appkit/react', 'viem/chains', ...) stay external too
       external: [
-        // react
-        'react',
-        'react-dom',
-        'react/jsx-runtime',
-        // wagmi ecosystem
-        '@wagmi/core',
-        'wagmi',
-        'viem',
-        // reown
-        '@reown/appkit',
-        '@reown/appkit-adapter-wagmi',
-        // uniswap
-        '@uniswap/sdk-core',
-        '@uniswap/v3-sdk',
-        // others
-        '@tanstack/react-query',
-        'ethers',
+        /^react($|\/)/,
+        /^react-dom($|\/)/,
+        /^@wagmi\//,
+        /^wagmi($|\/)/,
+        /^viem($|\/)/,
+        /^@reown\/appkit/,
+        /^@uniswap\//,
+        /^@tanstack\//,
+        /^ethers($|\/)/,
         'jsbi',
       ],
       output: {
@@ -94,6 +87,8 @@ export default defineConfig({
           'wagmi': 'wagmi',
           'viem': 'viem',
           '@reown/appkit': 'reownAppkit',
+          '@reown/appkit/react': 'reownAppkitReact',
+          '@reown/appkit/networks': 'reownAppkitNetworks',
           '@reown/appkit-adapter-wagmi': 'reownAppkitAdapterWagmi',
           '@uniswap/sdk-core': 'uniswapSdkCore',
           '@uniswap/v3-sdk': 'uniswapV3Sdk',
@@ -103,6 +98,7 @@ export default defineConfig({
         }
       }
     },
+    copyPublicDir: false,
     sourcemap: true,
     minify: 'terser',
     terserOptions: {

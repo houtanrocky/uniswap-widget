@@ -1,5 +1,5 @@
 import { Token } from "@uniswap/sdk-core";
-import { FeeAmount } from "@uniswap/v3-sdk";
+import type { FeeAmount } from "@uniswap/v3-sdk";
 
 declare global {
   interface Window {
