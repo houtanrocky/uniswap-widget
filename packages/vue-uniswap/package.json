@@ -1,6 +1,6 @@
 {
   "name": "@uniswap-widget/vue",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "description": "Vue 3 Uniswap swap widget, built on @uniswap-widget/core",
   "license": "MIT",

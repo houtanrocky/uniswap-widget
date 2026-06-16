@@ -1,6 +1,6 @@
 {
   "name": "@uniswap-widget/core",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "Framework-agnostic core for the Uniswap swap widget: trading logic, types, and themes",
   "license": "MIT",
