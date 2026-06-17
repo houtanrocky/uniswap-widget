@@ -6,6 +6,7 @@
 packages:
   - "packages/*"
   - "examples/*"
+  - "docs-site"
 
 # Reown AppKit 1.4's transitive ranges are loose, so pnpm otherwise floats
 # @wagmi/connectors to 8 / @wagmi/core to 3  a second wagmi major alongside the

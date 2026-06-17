@@ -6,6 +6,8 @@ core with React and Vue bindings  and runnable examples.
 The widget lets you embed Uniswap swap functionality into a dApp with no token
 limitations, no warnings, and no added fee.
 
+📚 **Documentation:** <https://houtan-rocky.github.io/uniswap-widget/>
+
 ## Layout
 
 ```

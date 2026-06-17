@@ -24,6 +24,18 @@
         "cd ~/Repos/react-uniswap/examples/vue && pnpm exec vite --host 0.0.0.0 --port 5189 --strictPort"
       ],
       "port": 5189
+    },
+    {
+      "name": "docs",
+      "runtimeExecutable": "wsl",
+      "runtimeArgs": [
+        "-d",
+        "ubuntu-24.04",
+        "bash",
+        "-lic",
+        "cd ~/Repos/react-uniswap/docs-site && pnpm exec vitepress dev --host 0.0.0.0 --port 5190 --strictPort"
+      ],
+      "port": 5190
     }
   ]
 }

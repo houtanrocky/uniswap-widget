@@ -4,6 +4,16 @@
   "type": "module",
   "description": "Framework-agnostic core for the Uniswap swap widget: trading logic, types, and themes",
   "license": "MIT",
+  "author": "houtan-rocky (https://github.com/houtan-rocky)",
+  "homepage": "https://houtan-rocky.github.io/uniswap-widget/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houtan-rocky/uniswap-widget.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/houtan-rocky/uniswap-widget/issues"
+  },
   "main": "./src/index.ts",
   "module": "./src/index.ts",
   "types": "./src/index.ts",

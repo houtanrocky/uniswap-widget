@@ -4,6 +4,16 @@
   "type": "module",
   "description": "Vue 3 Uniswap swap widget, built on @uniswap-widget/core",
   "license": "MIT",
+  "author": "houtan-rocky (https://github.com/houtan-rocky)",
+  "homepage": "https://houtan-rocky.github.io/uniswap-widget/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houtan-rocky/uniswap-widget.git",
+    "directory": "packages/vue-uniswap"
+  },
+  "bugs": {
+    "url": "https://github.com/houtan-rocky/uniswap-widget/issues"
+  },
   "main": "./src/index.ts",
   "module": "./src/index.ts",
   "types": "./src/index.ts",

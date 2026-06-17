@@ -1,8 +1,8 @@
 # @uniswap-widget/vue
 
 A Vue 3 Uniswap swap widget, built on
-[`@uniswap-widget/core`](../core). The same trading logic that powers
-[`@uniswap-widget/react`](../react-uniswap)  exposed as Vue components and composables.
+[`@uniswap-widget/core`](https://github.com/houtan-rocky/uniswap-widget/tree/main/packages/core). The same trading logic that powers
+[`@uniswap-widget/react`](https://github.com/houtan-rocky/uniswap-widget/tree/main/packages/react-uniswap)  exposed as Vue components and composables.
 
 ```vue
 <script setup lang="ts">

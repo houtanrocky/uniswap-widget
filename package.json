@@ -6,6 +6,14 @@
   "type": "module",
   "description": "Monorepo for the @uniswap-widget and its examples",
   "license": "MIT",
+  "homepage": "https://houtan-rocky.github.io/uniswap-widget/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houtan-rocky/uniswap-widget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/houtan-rocky/uniswap-widget/issues"
+  },
   "scripts": {
     "build": "pnpm --filter @uniswap-widget/react build",
     "build:all": "pnpm -r build",
@@ -16,7 +24,10 @@
     "lint": "eslint .",
     "typecheck": "pnpm -r --if-present typecheck",
     "test": "pnpm -r --if-present test",
-    "clean": "pnpm -r --if-present clean"
+    "clean": "pnpm -r --if-present clean",
+    "docs:dev": "pnpm --filter docs-site dev",
+    "docs:build": "pnpm --filter docs-site build",
+    "docs:preview": "pnpm --filter docs-site preview"
   },
   "devDependencies": {
     "@eslint/js": "catalog:",
