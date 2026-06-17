@@ -1,0 +1,47 @@
+name: Publish packages to npm
+
+# Publishes the @uniswap-widget/* packages to npm WITH provenance — this is what
+# produces the "verified / linked source" attestation badge on the npm package
+# page. Trigger it by publishing a GitHub Release, or run it manually.
+#
+# One-time setup: add a repo secret named NPM_TOKEN — an npm automation or
+# granular-access token with publish rights for the @uniswap-widget scope
+# (npmjs.com → Access Tokens). Provenance additionally requires this repo to be
+# public and each package.json `repository` field to point at it (already set).
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write # required for npm provenance attestation
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      # pnpm runs each package's prepublishOnly (build), rewrites the workspace:/
+      # catalog: specifiers, applies publishConfig (dist entry points), and
+      # publishes in dependency order (core → react/vue). Private packages
+      # (examples, docs-site) are never published; versions already on the
+      # registry are skipped.
+      - name: Publish with provenance
+        run: pnpm -r publish --access public --provenance --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_CONFIG_PROVENANCE: true
