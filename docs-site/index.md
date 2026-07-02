@@ -14,7 +14,7 @@ hero:
       link: /guide/introduction
     - theme: alt
       text: View on GitHub
-      link: https://github.com/houtan-rocky/uniswap-widget
+      link: https://github.com/houtanrocky/uniswap-widget
 
 features:
   - title: Framework-agnostic core

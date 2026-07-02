@@ -4,15 +4,15 @@
   "type": "module",
   "description": "A clean Uniswap swap widget package for easy integration",
   "license": "MIT",
-  "author": "houtan-rocky (https://github.com/houtan-rocky)",
-  "homepage": "https://houtan-rocky.github.io/uniswap-widget/",
+  "author": "houtanrocky (https://github.com/houtanrocky)",
+  "homepage": "https://houtanrocky.github.io/uniswap-widget/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/houtan-rocky/uniswap-widget.git",
+    "url": "git+https://github.com/houtanrocky/uniswap-widget.git",
     "directory": "packages/react-uniswap"
   },
   "bugs": {
-    "url": "https://github.com/houtan-rocky/uniswap-widget/issues"
+    "url": "https://github.com/houtanrocky/uniswap-widget/issues"
   },
   "sideEffects": false,
   "main": "./src/index.ts",

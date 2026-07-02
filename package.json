@@ -6,13 +6,13 @@
   "type": "module",
   "description": "Monorepo for the @uniswap-widget and its examples",
   "license": "MIT",
-  "homepage": "https://houtan-rocky.github.io/uniswap-widget/",
+  "homepage": "https://houtanrocky.github.io/uniswap-widget/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/houtan-rocky/uniswap-widget.git"
+    "url": "git+https://github.com/houtanrocky/uniswap-widget.git"
   },
   "bugs": {
-    "url": "https://github.com/houtan-rocky/uniswap-widget/issues"
+    "url": "https://github.com/houtanrocky/uniswap-widget/issues"
   },
   "scripts": {
     "build": "pnpm --filter @uniswap-widget/react build",

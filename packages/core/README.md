@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@uniswap-widget/core.svg)](https://www.npmjs.com/package/@uniswap-widget/core)
 [![npm downloads](https://img.shields.io/npm/dm/@uniswap-widget/core.svg)](https://www.npmjs.com/package/@uniswap-widget/core)
-[![license](https://img.shields.io/npm/l/@uniswap-widget/core.svg)](https://github.com/houtan-rocky/uniswap-widget/blob/main/LICENSE)
+[![license](https://img.shields.io/npm/l/@uniswap-widget/core.svg)](https://github.com/houtanrocky/uniswap-widget/blob/main/LICENSE)
 
 Framework-agnostic core for the Uniswap swap widget. This package contains the
 parts that don't care which UI framework you use:
@@ -18,8 +18,8 @@ The framework bindings build their UI on top of this:
 
 | Package                  | Framework |
 | ------------------------ | --------- |
-| [`@uniswap-widget/react`](https://github.com/houtan-rocky/uniswap-widget/tree/main/packages/react-uniswap) | React |
-| [`@uniswap-widget/vue`](https://github.com/houtan-rocky/uniswap-widget/tree/main/packages/vue-uniswap) | Vue 3 |
+| [`@uniswap-widget/react`](https://github.com/houtanrocky/uniswap-widget/tree/main/packages/react-uniswap) | React |
+| [`@uniswap-widget/vue`](https://github.com/houtanrocky/uniswap-widget/tree/main/packages/vue-uniswap) | Vue 3 |
 
 ## Why a separate core?
 

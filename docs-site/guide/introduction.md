@@ -19,7 +19,7 @@ package — the core comes along as a dependency.
 ## How it fits into your app
 
 The widget makes three assumptions about the host app. The React example app
-([`examples/basic`](https://github.com/houtan-rocky/uniswap-widget/tree/main/examples/basic)) is the
+([`examples/basic`](https://github.com/houtanrocky/uniswap-widget/tree/main/examples/basic)) is the
 reference implementation of all three:
 
 1. **Tailwind CSS** — the widget ships no CSS of its own; your Tailwind build generates its classes

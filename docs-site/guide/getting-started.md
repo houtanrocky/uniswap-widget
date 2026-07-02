@@ -15,8 +15,8 @@ The widget expects a host app that satisfies a small contract (covered in full o
   [cloud.reown.com](https://cloud.reown.com/). (Not needed for the injected-wallet adapter below.)
 
 ::: tip The example apps do all of this for you
-[`examples/basic`](https://github.com/houtan-rocky/uniswap-widget/tree/main/examples/basic) (React)
-and [`examples/vue`](https://github.com/houtan-rocky/uniswap-widget/tree/main/examples/vue) (Vue) are
+[`examples/basic`](https://github.com/houtanrocky/uniswap-widget/tree/main/examples/basic) (React)
+and [`examples/vue`](https://github.com/houtanrocky/uniswap-widget/tree/main/examples/vue) (Vue) are
 ready-made reference hosts. See the [Playground](/playground/) to run them.
 :::
 

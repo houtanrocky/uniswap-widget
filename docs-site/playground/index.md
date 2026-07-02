@@ -7,8 +7,8 @@ env are all wired up for you.
 
 | Example | Framework | Package it uses | What it shows |
 |---------|-----------|-----------------|---------------|
-| [`examples/basic`](https://github.com/houtan-rocky/uniswap-widget/tree/main/examples/basic) | React | [`@uniswap-widget/react`](/packages/react) | Tailwind config, dev proxy + Vercel functions, Reown wallet wiring |
-| [`examples/vue`](https://github.com/houtan-rocky/uniswap-widget/tree/main/examples/vue) | Vue 3 | [`@uniswap-widget/vue`](/packages/vue) | The Vue counterpart, proving the shared core drives both |
+| [`examples/basic`](https://github.com/houtanrocky/uniswap-widget/tree/main/examples/basic) | React | [`@uniswap-widget/react`](/packages/react) | Tailwind config, dev proxy + Vercel functions, Reown wallet wiring |
+| [`examples/vue`](https://github.com/houtanrocky/uniswap-widget/tree/main/examples/vue) | Vue 3 | [`@uniswap-widget/vue`](/packages/vue) | The Vue counterpart, proving the shared core drives both |
 
 ::: info Why there's no live demo embedded here
 A real swap needs a connected wallet **and** a backend proxy for `/api/base-rpc` and the token-search
@@ -19,7 +19,7 @@ locally** (or deployed to a host like Vercel, which the examples are set up for)
 ## Run it locally
 
 ```bash
-git clone https://github.com/houtan-rocky/uniswap-widget.git
+git clone https://github.com/houtanrocky/uniswap-widget.git
 cd uniswap-widget
 
 # Node + Corepack (pins pnpm via the "packageManager" field)
