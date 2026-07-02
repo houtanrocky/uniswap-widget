@@ -1,7 +1,7 @@
 {
   "name": "docs-site",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "description": "Documentation site for @uniswap-widget (VitePress, deployed to GitHub Pages)",
   "scripts": {
