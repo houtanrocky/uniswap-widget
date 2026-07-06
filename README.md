@@ -4,12 +4,19 @@
 [![@uniswap-widget/vue](https://img.shields.io/npm/v/@uniswap-widget/vue.svg?label=%40uniswap-widget%2Fvue)](https://www.npmjs.com/package/@uniswap-widget/vue)
 [![@uniswap-widget/core](https://img.shields.io/npm/v/@uniswap-widget/core.svg?label=%40uniswap-widget%2Fcore)](https://www.npmjs.com/package/@uniswap-widget/core)
 [![license](https://img.shields.io/npm/l/@uniswap-widget/react.svg)](LICENSE)
+[![CI](https://github.com/houtanrocky/uniswap-widget/actions/workflows/ci.yml/badge.svg)](https://github.com/houtanrocky/uniswap-widget/actions/workflows/ci.yml)
+[![documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://houtanrocky.github.io/uniswap-widget/)
 
 A pnpm monorepo for the **`@uniswap-widget`** swap widget  a framework-agnostic
 core with React and Vue bindings  and runnable examples.
 
 The widget lets you embed Uniswap swap functionality into a dApp with no token
 limitations, no warnings, and no added fee.
+
+> [!IMPORTANT]
+> This is an independent community project. It is not affiliated with, maintained by, or endorsed
+> by Uniswap Labs or the Uniswap Foundation. The software has not been independently audited; review
+> the code and test transactions carefully before using it with real assets.
 
 📚 **Documentation:** <https://houtanrocky.github.io/uniswap-widget/>
 
@@ -87,3 +94,8 @@ the `@uniswap-widget/*` names.
 ## License
 
 MIT
+
+## Security and contributing
+
+Read the [security policy](SECURITY.md) before reporting a vulnerability. Contributions are welcome
+under the [contribution guidelines](CONTRIBUTING.md) and [code of conduct](CODE_OF_CONDUCT.md).

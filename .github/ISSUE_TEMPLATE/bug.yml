@@ -1,0 +1,46 @@
+name: Bug report
+description: Report reproducible incorrect behavior
+title: '[Bug]: '
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not report vulnerabilities here. Use the private security advisory form instead.
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package
+      options:
+        - '@uniswap-widget/react'
+        - '@uniswap-widget/vue'
+        - '@uniswap-widget/core'
+        - Documentation or examples
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: e.g. 2.1.8
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Provide a minimal repository or exact steps.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, framework, wallet adapter, chain, and relevant dependency versions.
+    validations:
+      required: true
