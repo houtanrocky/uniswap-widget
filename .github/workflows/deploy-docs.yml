@@ -31,7 +31,7 @@ jobs:
           fetch-depth: 0 # so VitePress "last updated" timestamps are accurate
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v4 # version comes from the repo's "packageManager" field
+        uses: pnpm/action-setup@v6 # version comes from the repo's "packageManager" field
 
       - name: Setup Node
         uses: actions/setup-node@v4
