@@ -2,10 +2,10 @@
   "name": "@uniswap-widget/vue",
   "version": "1.0.7",
   "type": "module",
-  "description": "Vue 3 Uniswap swap widget, built on @uniswap-widget/core",
+  "description": "Open-source Vue 3 Uniswap swap widget with composables, wallet adapters, and shared TypeScript core",
   "license": "MIT",
   "author": "houtanrocky (https://github.com/houtanrocky)",
-  "homepage": "https://houtanrocky.github.io/uniswap-widget/",
+  "homepage": "https://houtanrocky.github.io/uniswap-widget/packages/vue",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/houtanrocky/uniswap-widget.git",

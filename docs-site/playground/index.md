@@ -1,4 +1,9 @@
-# Playground — example apps
+---
+title: React and Vue Uniswap Widget Examples
+description: Run complete React and Vue example apps that demonstrate Uniswap swaps, wallet connections, token search, Tailwind CSS, and RPC proxying.
+---
+
+# React and Vue Uniswap Widget Examples
 
 The repo ships two small, runnable apps that consume the published widget exactly the way a real
 downstream app would (via `workspace:*`, importing from the package's public entry point). They double

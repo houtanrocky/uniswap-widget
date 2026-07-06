@@ -1,4 +1,9 @@
-# Architecture
+---
+title: Uniswap Widget Architecture
+description: Explore the TypeScript architecture behind the framework-agnostic Uniswap trading core and its React and Vue swap widget bindings.
+---
+
+# Uniswap Widget Architecture
 
 The design of the monorepo is recorded as short **Architecture Decision Records** (ADRs) in
 [`/docs`](https://github.com/houtanrocky/uniswap-widget/tree/main/docs). Each is a dated

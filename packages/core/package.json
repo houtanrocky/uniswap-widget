@@ -5,7 +5,7 @@
   "description": "Framework-agnostic core for the Uniswap swap widget: trading logic, types, and themes",
   "license": "MIT",
   "author": "houtanrocky (https://github.com/houtanrocky)",
-  "homepage": "https://houtanrocky.github.io/uniswap-widget/",
+  "homepage": "https://houtanrocky.github.io/uniswap-widget/packages/core",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/houtanrocky/uniswap-widget.git",

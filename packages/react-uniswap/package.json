@@ -2,10 +2,10 @@
   "name": "@uniswap-widget/react",
   "version": "2.1.8",
   "type": "module",
-  "description": "A clean Uniswap swap widget package for easy integration",
+  "description": "Open-source React Uniswap swap widget with wallet adapters, token search, and no added fee",
   "license": "MIT",
   "author": "houtanrocky (https://github.com/houtanrocky)",
-  "homepage": "https://houtanrocky.github.io/uniswap-widget/",
+  "homepage": "https://houtanrocky.github.io/uniswap-widget/packages/react",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/houtanrocky/uniswap-widget.git",

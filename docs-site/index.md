@@ -1,9 +1,11 @@
 ---
 layout: home
+title: Open-source Uniswap Widget
+description: Add Uniswap token swaps to React or Vue apps with an open-source TypeScript widget, wallet adapters, token search, and no added fee.
 
 hero:
-  name: uniswap-widget
-  text: Embeddable Uniswap swap widget
+  name: Uniswap Widget
+  text: Embeddable token swaps for React and Vue
   tagline: A framework-agnostic core with React and Vue bindings. No token limits, no warnings, no added fee.
   actions:
     - theme: brand

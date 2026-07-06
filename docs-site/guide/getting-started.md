@@ -1,4 +1,9 @@
-# Getting started
+---
+title: Install an Uniswap Swap Widget
+description: Install and configure an Uniswap swap widget in a React or Vue dApp, including Tailwind CSS, wallet adapters, RPC proxying, and token search.
+---
+
+# Install an Uniswap Swap Widget
 
 This page gets a widget rendering quickly. For the full provider configuration, every prop, and the
 host-app requirements, head to the package pages — [React](/packages/react) and [Vue](/packages/vue).

@@ -1,4 +1,9 @@
-# Introduction
+---
+title: Uniswap Widget for React and Vue
+description: Learn how the open-source uniswap-widget adds token swaps to React and Vue dApps through a shared TypeScript core and wallet adapters.
+---
+
+# Uniswap Widget for React and Vue
 
 **uniswap-widget** lets you embed Uniswap swap functionality into a dApp — with no token
 limitations, no warnings, and no added fee. It ships as a small family of packages: a
