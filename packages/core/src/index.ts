@@ -3,7 +3,7 @@
 //
 // Everything here is plain TypeScript: trading logic, providers, types, and
 // theme data. No React, Vue, wagmi, or AppKit. Framework bindings
-// (`uniswap-widget/react`, `@uniswap-widget/vue`, ...) build their UI on top of this.
+// (`uniswap-widget/react`, `@uniswap-widget/vue`, ... ) build their UI on top of this.
 // =============================================================================
 
 // --- Trading logic ----------------------------------------------------------
